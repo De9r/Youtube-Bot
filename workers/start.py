@@ -16,16 +16,13 @@ from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, Inl
 async def start(client, message):
     # return
     joinButton = InlineKeyboardMarkup([
-        [InlineKeyboardButton("⭕ Channel", url="https://t.me/TeleRoidGroup"),
-         InlineKeyboardButton("😇 Support", url="https://t.me/TeleRoid14")],
-        [InlineKeyboardButton("👤 Repo", url="https://github.com/PredatorHackerzZ/YouTube-Bot"),
-         InlineKeyboardButton("🤖 BotsList", url="https://t.me/joinchat/t1ko_FOJxhFiOThl")],
+        [InlineKeyboardButton("🙈 القناة", url="https://t.me/cn_world"),
+         InlineKeyboardButton("😇 المطور", url="https://t.me/jj8jjj8")],
     ])
-    welcomed = f"""
-    Hello 🙋,
-Dear User<b>{message.from_user.first_name}</b>
-This Is A YouTube Uploader Bot. Click /help for More info About the Bot.
-    [📥](https://telegra.ph/file/39812237fd7a1bfc02532.jpg)"""
+    welcomed = f"""مرحبا عزيزي المستخدم <b>{message.from_user.first_name}</b>
+في بوت التحميل من اليوتيوب الافضل.
+
+ارسل /help لمعرفة كيفية الاستخدام[📥](https://telegra.ph/file/39812237fd7a1bfc02532.jpg)"""
   
     
     await message.reply_text(welcomed, reply_markup=joinButton)
