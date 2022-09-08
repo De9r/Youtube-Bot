@@ -16,19 +16,29 @@ async def help(client, message):
     
     # Thought of somemore features but i am lazy lul
     
-    helptxt = f"""Steps How to Use the Bot! 
+    helptxt = f"""خطوات كيفية استخدام البوت!
 
-                 .˜”*°•**In Private**•°*”˜.
+• في الخاص •
 
-Copy any Valid Youtube link and paste inside the bot and follow the steps.
+انسخ أي رابط Youtube والصقه داخل البوت واتبع الخطوات.
 
-                 .˜”*°•**In Groups**•°*”˜.
-Add me in any group then copy any valid Youtube link and paste inside the bot and follow the prompts.
+• في مجموعات •
 
-                .**Keep In Mind**.
--No Playlist Support Right Now. 
--Bigger download File size,more wait time. 
--And Bot Can Upload at a Limit of 1.9GB Bcz TeleGram Limitations."""
+أضفني في أي مجموعة ثم انسخ أي رابط Youtube والصقه داخل المجموعة واتبع التعليمات.
+
+#ملاحظات
+
+- حجم ملف تنزيل أكبر ، وقت انتظار أطول.
+
+-يمكن للبوت التحميل بحد أقصى 1.9 جيجا بايت ."""
+
+                 
+
+
+                 
+
+
+  
         
     
     await message.reply_text(helptxt)
